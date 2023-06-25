@@ -1,1 +1,0 @@
-# sukna-project
