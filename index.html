@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>سُكنة - أبسط تجربة للإيجار</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.4/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="backdrop-blur-xl">
+          <div class="logo">
+            <a href="#"><img src="assets/logo.png" alt="سُكنة"/></a>
+            </div>
+          <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">ابحث عن عقار</a></li>
+                <li><a href="#">أضف عقارك</a></li>
+                <li><a href="#">الخدمات</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>   
+    </header>
+    <section class="hero">
+      
+      <div class="hero-content backdrop-blur-xl bg-black/20 ... rounded drop-shadow-sm">
+        <div>
+        <h1>مرحبًا بك في سُكنة</h1></div>
+        <p>منصة توفر السهولة في إيجاد وتأجير/بيع الوحدات السكنية للمالكين والمستأجرين. بالإضافة إلى خدمات أساسية للطلاب الوافدين في مصر.</p>
+          <!--<input type="text" placeholder="ابحث عن سكن...">
+          <button>ابحث</button>-->
+          <div class="max-w-2xl mx-auto">
+          <form>
+            <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
+            <div class=".element relative">
+                <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                    <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </div>
+                <input type="search" id="default-search" class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="ابحث عن منزلك المثالي..." required>
+            </div>
+        </form>
+        <!--
+        <button type="submit" class=" text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">بحث</button>
+        -->
+      </div>
+      </div>
+      <img src="assets/hero-image.jpg" alt="صورة الهيرو">
+    </section>    
+    <section id="find-property">
+        <h2>اكتشف المزيد من الوحدات</h2>
+        <div class="property-cards-container">
+        <div class="property-card">
+            <img src="assets/property1.jpg" alt="Modern Studio Apartment in Zamalek">
+            <h3>شقة استوديو عصرية في الزمالك</h3>
+            <ul>
+                <li>السعر: $800/شهريًا</li>
+                <li>غرف النوم: 1</li>
+                <li>الحمامات: 1</li>
+                <li>الموقع: الزمالك، القاهرة</li>
+            </ul>
+            <p>تعتبر هذه الشقة العصرية مثالية للطلاب أو الشباب الذين يبحثون عن مساحة سكنية أنيقة ومريحة. تقع في حي الزمالك النابض بالحيوية، وتوفر سهولة الوصول إلى المقاهي والمطاعم والمعالم الثقافية. الشقة مفروشة بالكامل وتتميز بوسائل الراحة العصرية لراحتك.</p>
+            <a href="#" class="card-button">عرض التفاصيل</a>
+          </div>
+        <div class="property-card">
+            <img src="assets/property2.jpg" alt="Spacious Family Villa in Maadi">
+            <h3>فيلا عائلية فسيحة في المعادي</h3>
+            <ul>
+                <li>السعر: $2,500/شهريًا</li>
+                <li>غرف النوم: 4</li>
+                <li>الحمامات: 3</li>
+                <li>الموقع: المعادي، القاهرة</li>
+            </ul>
+            <p>استمتع بالعيش الفخم في هذه الفيلا العائلية الواسعة الموجودة في حي المعادي الراقي. مع مساحة معيشة وفيرة وحديقة خاصة ومسبح، تعد هذه العقارات مثالية للعائلات الساعية لمنزل مريح وأنيق. استمتع بهدوء المعادي ولا تزال قريبًا من المدارس والمتاجر والمرافق الترفيهية.</p>
+            <a href="#" class="card-button">عرض التفاصيل</a>
+          </div>
+        <div class="property-card">
+            <img src="assets/property3.jpg" alt="Cozy Apartment near Alexandria University">
+            <h3>شقة مريحة بالقرب من جامعة الإسكندرية</h3>
+            <ul>
+                <li>السعر: $600/شهريًا</li>
+                <li>غرف النوم: 2</li>
+                <li>الحمامات: 1</li>
+                <li>الموقع: سموحة، الإسكندرية</li>
+            </ul>
+            <p>تعد هذه الشقة المريحة خيار
+
+ًا ممتازًا للطلاب الذين يحضرون جامعة الإسكندرية. تقع في حي سموحة النابض بالحياة، وتوفر قربها من حرم الجامعة، بالإضافة إلى مختلف الوسائل الأساسية مثل السوبرماركت والمطاعم ووسائل النقل العام. الشقة مفروشة بالكامل وتوفر بيئة مريحة ومناسبة للدراسة.</p>
+            <a href="#" class="card-button">عرض التفاصيل</a>
+</div>
+          <div class="property-card">
+            <img src="assets/property3.jpg" alt="Cozy Apartment near Alexandria University">
+            <h3>شقة مريحة بالقرب من جامعة الإسكندرية</h3>
+            <ul>
+                <li>السعر: $600/شهريًا</li>
+                <li>غرف النوم: 2</li>
+                <li>الحمامات: 1</li>
+                <li>الموقع: سموحة، الإسكندرية</li>
+            </ul>
+            <p>تعد هذه الشقة المريحة خيار
+
+ًا ممتازًا للطلاب الذين يحضرون جامعة الإسكندرية. تقع في حي سموحة النابض بالحياة، وتوفر قربها من حرم الجامعة، بالإضافة إلى مختلف الوسائل الأساسية مثل السوبرماركت والمطاعم ووسائل النقل العام. الشقة مفروشة بالكامل وتوفر بيئة مريحة ومناسبة للدراسة.</p>
+<a href="#" class="card-button">عرض التفاصيل</a>
+</div>
+<div class="property-card">
+  <img src="assets/property2.jpg" alt="Spacious Family Villa in Maadi">
+  <h3>فيلا عائلية فسيحة في المعادي</h3>
+  <ul>
+      <li>السعر: $2,500/شهريًا</li>
+      <li>غرف النوم: 4</li>
+      <li>الحمامات: 3</li>
+      <li>الموقع: المعادي، القاهرة</li>
+  </ul>
+  <p>استمتع بالعيش الفخم في هذه الفيلا العائلية الواسعة الموجودة في حي المعادي الراقي. مع مساحة معيشة وفيرة وحديقة خاصة ومسبح، تعد هذه العقارات مثالية للعائلات الساعية لمنزل مريح وأنيق. استمتع بهدوء المعادي ولا تزال قريبًا من المدارس والمتاجر والمرافق الترفيهية.</p>
+  <a href="#" class="card-button">عرض التفاصيل</a>
+</div>
+<div class="property-card">
+  <img src="assets/property1.jpg" alt="Modern Studio Apartment in Zamalek">
+  <h3>شقة استوديو عصرية في الزمالك</h3>
+  <ul>
+      <li>السعر: $800/شهريًا</li>
+      <li>غرف النوم: 1</li>
+      <li>الحمامات: 1</li>
+      <li>الموقع: الزمالك، القاهرة</li>
+  </ul>
+  <p>تعتبر هذه الشقة العصرية مثالية للطلاب أو الشباب الذين يبحثون عن مساحة سكنية أنيقة ومريحة. تقع في حي الزمالك النابض بالحيوية، وتوفر سهولة الوصول إلى المقاهي والمطاعم والمعالم الثقافية. الشقة مفروشة بالكامل وتتميز بوسائل الراحة العصرية لراحتك.</p>
+  <a href="#" class="card-button">عرض التفاصيل</a>
+</div>
+
+          <section id="testimonials">
+            <h2>شهادات العملاء</h2>
+            <div class="testimonial-cards-container">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p class="testimonial-text">تجربتي مع سُكنة كانت رائعة! وجدت شقة مريحة وبأسعار معقولة بسهولة وسرعة. فريق الدعم كان ودودًا ومساعدًا في جميع الأوقات.</p>
+                  <p class="testimonial-author">- أحمد علي</p>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p class="testimonial-text">سُكنة هو المكان المثالي للعثور على سكن في مصر. العديد من الخيارات المتاحة وتجربة المستخدم ممتازة. أنا سعيدة جدًا بخدمتهم.</p>
+                  <p class="testimonial-author">- نورا عبدالله</p>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p class="testimonial-text">أوصي بشدة بمنصة سُكنة. سهلة الاستخدام وتقدم خدمة رائعة للمستأجرين. وجدت شقة مريحة ومناسبة لاحتياجاتي بسرعة ويسر.</p>
+                  <p class="testimonial-author">- سارة محمد</p>
+                </div>
+              </div>
+            </div>
+          </section>          
+
+          <footer>
+            <div class="footer-container">
+              <div class="footer-links">
+                <a href="#">الرئيسية</a>
+                <a href="#">الخدمات</a>
+                <a href="#">الشروط والأحكام</a>
+                <a href="#">سياسة الخصوصية</a>
+                <a href="#">اتصل بنا</a>
+              </div>
+            </div>
+        <p>سُكنة - تبسيط تجربة الإيجار لأصحاب العقارات والمستأجرين والطلاب الوافدين في مصر. اتصل بنا اليوم لاكتشاف أسهل طريقة للعثور على أو إضافة وحدة سكنية مثالية لك.</p>
+        <p class="footer-text">جميع الحقوق محفوظة &copy; 2023 سُكنة</p>
+      </footer>
+    <script src="index.js"></script>
+</body>
+</html>
