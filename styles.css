@@ -124,8 +124,9 @@
   }
   
   .stroke-current {
-    stroke: #cbd5e1;    
-  }
+    --tw-border-opacity: 1;
+    border-color: rgb(75 85 99 / var(--tw-border-opacity));
+    }
 
   .search-bar input {
     width: 400px;
