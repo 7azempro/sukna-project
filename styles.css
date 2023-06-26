@@ -123,6 +123,10 @@
     margin-bottom: 30px;
   }
   
+  .stroke-current {
+    stroke: currentColor;
+  }
+
   .search-bar input {
     width: 400px;
     padding: 10px;
