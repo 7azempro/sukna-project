@@ -100,11 +100,6 @@
     margin-bottom: 20px;
   }
   .backdrop-blur-xl {
-    border-color: var(--color-border-default);
-    border-style: solid;
-    border-top-left-radius: var(--borderRadius-medium, 6px);
-    border-top-right-radius: var(--borderRadius-medium, 6px);
-    border-width: var(--borderWidth-thin, max(1px, 0.0625rem));
     backdrop-filter: blur(64px);
   }
   .rounded {
