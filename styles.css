@@ -103,7 +103,7 @@
     backdrop-filter: blur(64px);
   }
   .rounded {
-    border-radius: 0.40rem;
+    border-radius: 0.5rem;
   }
 
   .drop-shadow-sm	{
