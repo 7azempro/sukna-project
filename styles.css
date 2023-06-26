@@ -61,6 +61,7 @@
         }
     
     nav ul li a {
+      font-weight: bold;
       margin: 20px;
       color:#023047;
       text-decoration: none;
