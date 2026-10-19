@@ -1,9 +1,10 @@
 // Sample listings for the concept. Not real units: the page says so wherever they appear.
-export const CITIES = ['القاهرة', 'الإسكندرية'];
+export const KINDS = ['شقة', 'استوديو', 'فيلا'];
 
 export const LISTINGS = [
   {
     id: 'zamalek-studio',
+    kind: 'استوديو',
     title: 'استوديو عصري في الزمالك',
     area: 'الزمالك',
     city: 'القاهرة',
@@ -19,6 +20,7 @@ export const LISTINGS = [
   },
   {
     id: 'smouha-flat',
+    kind: 'شقة',
     title: 'شقة غرفتين قرب جامعة الإسكندرية',
     area: 'سموحة',
     city: 'الإسكندرية',
@@ -34,6 +36,7 @@ export const LISTINGS = [
   },
   {
     id: 'maadi-villa',
+    kind: 'فيلا',
     title: 'فيلا عائلية فسيحة في المعادي',
     area: 'المعادي',
     city: 'القاهرة',
@@ -49,6 +52,7 @@ export const LISTINGS = [
   },
   {
     id: 'nasr-city-flat',
+    kind: 'شقة',
     title: 'شقة غرفتين في مدينة نصر',
     area: 'مدينة نصر',
     city: 'القاهرة',
@@ -64,6 +68,7 @@ export const LISTINGS = [
   },
   {
     id: 'tagamoa-flat',
+    kind: 'شقة',
     title: 'شقة عائلية في التجمع الخامس',
     area: 'التجمع الخامس',
     city: 'القاهرة',
@@ -79,6 +84,7 @@ export const LISTINGS = [
   },
   {
     id: 'shatby-studio',
+    kind: 'استوديو',
     title: 'استوديو مفروش في الشاطبي',
     area: 'الشاطبي',
     city: 'الإسكندرية',
